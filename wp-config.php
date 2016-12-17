@@ -67,7 +67,7 @@ define('NONCE_SALT',       'c<E#3l`:E#=(E`?bH, &wC-!||5{ZwNxE=gq-h),6@QR kR_tvT 
  */
 $table_prefix = 'dmeWjnEg';
 
-
+define( 'WP_ALLOW_MULTISITE', true );
 
 
 /* That's all, stop editing! Happy blogging. */
