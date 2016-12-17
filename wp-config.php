@@ -68,7 +68,12 @@ define('NONCE_SALT',       'c<E#3l`:E#=(E`?bH, &wC-!||5{ZwNxE=gq-h),6@QR kR_tvT 
 $table_prefix = 'dmeWjnEg';
 
 define( 'WP_ALLOW_MULTISITE', true );
-
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', false);
+define('DOMAIN_CURRENT_SITE', 'beta.shepherdmaplesyrupfest.org');
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
 
 /* That's all, stop editing! Happy blogging. */
 
